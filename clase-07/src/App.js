@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 // importo el componente Button.js
 import Button from './components/Button/Button';
+import Video from './components/Video/Video';
+import Audio from './components/Audio/Audio';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Button />
       <header className="App-header">
         <Button />
+        <Video />
+        <Audio />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload. Hola Mundo.
